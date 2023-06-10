@@ -3,7 +3,7 @@
         {
             "bottom_right":[
                 {
-                    "text":"PVP & SMP 1.0.0","clickEvent":
+                    "text":"PVP & SMP 0.0.2","clickEvent":
                         {
                             "action":"open_url","value":"https://modrinth.com/modpack/pvp-smp"
                         }

@@ -193,6 +193,17 @@
         },
         {
             "downloads": [
+                "https://cdn.modrinth.com/data/xv94TkTM/versions/yM2MSDnc/Controlling-fabric-1.19.4-11.1.5.jar"
+            ],
+            "fileSize": 116229,
+            "hashes": {
+                "sha1": "e6a9d9f67a90bd7fd985d03041d1904a2e7915b6",
+                "sha512": "f337270d3dea4be8bb8a24331e6d91e7167c215794987441b64b221ad44e4d0ae6a84ca448ef72bda6a2238a0afab6f6764d612c1ebd3f74fa94c807ad066ff3"
+            },
+            "path": "mods/Controlling-fabric-1.19.4-11.1.5.jar"
+        },
+        {
+            "downloads": [
                 "https://cdn.modrinth.com/data/DFqQfIBR/versions/KIPSvZpk/CraftPresence-2.0.0-rc.3%2B1.19.4.jar"
             ],
             "fileSize": 3573975,
@@ -435,6 +446,17 @@
         },
         {
             "downloads": [
+                "https://cdn.modrinth.com/data/3llatzyE/versions/kmoieWOA/litematica-printer-1.19.4-3.2.jar"
+            ],
+            "fileSize": 86254,
+            "hashes": {
+                "sha1": "bb5c827ff2df956abafefa8aaf98baa60248c0a0",
+                "sha512": "86ea98251aaa713213db831a80c5104f7159d4f09bc36498b3d38feb1141a467b67ab7577eb5c69ff32123240ef61f317fed4c9b8d36055b701ce0cf84ba7dc0"
+            },
+            "path": "mods/litematica-printer-1.19.4-3.2.jar"
+        },
+        {
+            "downloads": [
                 "https://cdn.modrinth.com/data/gvQqBUqZ/versions/14hWYkog/lithium-fabric-mc1.19.4-0.11.1.jar"
             ],
             "fileSize": 639391,
@@ -589,6 +611,17 @@
         },
         {
             "downloads": [
+                "https://cdn.modrinth.com/data/dbu8vyp0/versions/NhnvmpNy/PlayerHealthIndicators-1.1.0-1.19.3.jar"
+            ],
+            "fileSize": 13187,
+            "hashes": {
+                "sha1": "c7006ec72be19a61d7e19d63e0ebc53186dfe667",
+                "sha512": "8f6e6f5229232923404f57ec50a4359f8ab135736ee0f04bf3c19a116e7306119ce32659f4f3925153f01c897a65b023198f7e833b4d3381c65233e6bc8f61c2"
+            },
+            "path": "mods/PlayerHealthIndicators-1.1.0-1.19.3.jar"
+        },
+        {
+            "downloads": [
                 "https://cdn.modrinth.com/data/JzdjByS4/versions/M6nEd3AS/potioncounter-1.3.0%2Bmc1.19.4.jar"
             ],
             "fileSize": 36740,
@@ -641,6 +674,17 @@
                 "sha512": "d254589965e6add0af946769f9d957e6176144ea064e0399d4e74233b69c21014f4ad602c47a98ecb3252f293f21fd6198b9f13b2e4388ab967c22e5dcba3b7c"
             },
             "path": "mods/replaymod-1.19.4-2.6.12.jar"
+        },
+        {
+            "downloads": [
+                "https://cdn.modrinth.com/data/fuuu3xnx/versions/ve9kcBZR/Searchables-fabric-1.19.4-1.0.3.jar"
+            ],
+            "fileSize": 80133,
+            "hashes": {
+                "sha1": "3527015fb5d2185cb6b57e3a359e3a772028c933",
+                "sha512": "04aacabc1ca837eb9643d257b67d573ac0838ae900cac920cf47ff023a9501ed4439e1908908443e21b0ecdb0bdbd7b8f11e8bd0d51782181529896ce1e2f035"
+            },
+            "path": "mods/Searchables-fabric-1.19.4-1.0.3.jar"
         },
         {
             "downloads": [
@@ -789,6 +833,6 @@
     "formatVersion": 1,
     "game": "minecraft",
     "name": "PVP & SMP",
-    "summary": "PvP & SMP is a highly optimized Modpack for PvP and SMP",
-    "versionId": "1.0"
+    "summary": "The best Modpack for PvP & SMP",
+    "versionId": "0.0.2"
 }

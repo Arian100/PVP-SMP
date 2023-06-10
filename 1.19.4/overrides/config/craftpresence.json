@@ -1,13 +1,13 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_schemaVersion": 1,
-  "_lastMCVersionId": 761,
+  "_schemaVersion": 3,
+  "_lastMCVersionId": 762,
   "generalSettings": {
+    "detectATLauncherInstance": true,
     "detectCurseManifest": false,
     "detectMultiMCManifest": false,
     "detectMCUpdaterInstance": false,
     "detectTechnicPack": false,
-    "showTime": true,
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
@@ -20,10 +20,28 @@
     "autoRegister": false
   },
   "biomeSettings": {
-    "fallbackBiomeIcon": "grass" ,
+    "fallbackBiomeIcon": "grass",
     "biomeData": {
       "default": {
-        "textOverride": "Playing in {biome.name}"
+        "textOverride": "Playing in {biome.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
       }
     }
   },
@@ -31,7 +49,25 @@
     "fallbackDimensionIcon": "grass",
     "dimensionData": {
       "default": {
-        "textOverride": "In the {dimension.name}"
+        "textOverride": "In the {dimension.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
       }
     }
   },
@@ -41,26 +77,115 @@
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}"
+        "textOverride": "Playing on {server.motd.raw}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
       }
     }
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "Clicking buttons"
+      "textOverride": "Clicking buttons",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
     },
     "loadingData": {
-      "textOverride": "Stuck in the loading screen"
+      "textOverride": "Stuck in the loading screen",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
     },
     "lanData": {
-      "textOverride": "Playing on a LAN Server"
+      "textOverride": "Playing on a LAN Server",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
     },
     "singleplayerData": {
-      "textOverride": "Playing without friends"
+      "textOverride": "Playing without friends",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
     }
   },
   "advancedSettings": {
-    "enableCommands": true,
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
@@ -76,7 +201,25 @@
       "fallbackGuiIcon": "grass",
       "guiData": {
         "default": {
-          "textOverride": "In {screen.name}"
+          "textOverride": "In {screen.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
         }
       }
     },
@@ -87,12 +230,48 @@
       "fallbackEntityIcon": "grass",
       "targetData": {
         "default": {
-          "textOverride": "Targeting {entity.target.name}"
+          "textOverride": "Targeting {entity.target.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
         }
       },
       "ridingData": {
         "default": {
-          "textOverride": "Riding {entity.riding.name}"
+          "textOverride": "Riding {entity.riding.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
         }
       }
     },
@@ -122,6 +301,8 @@
       "largeImageText": "{menu.message != null ? menu.message : ''}",
       "smallImageKey": "{player.name != null ? player.name : ''}",
       "smallImageText": "{player.name != null ? player.name : 'unknown player'}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
       "buttons": {
         "default": {
           "label": "Example Text",
@@ -132,7 +313,10 @@
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
       "uku3lig": "https://mc-heads.net/avatar/6553509f66d34041875f164236e42e84",
-      "eu.mcpvp.club": "https://api.mcsrvstat.us/icon/eu.mcpvp.club"
+      "eu.mcpvp.club": "https://api.mcsrvstat.us/icon/eu.mcpvp.club",
+      "Arian01": "https://mc-heads.net/avatar/f35cff2c8f794190977b89263015ded5",
+      "ploemel.timo-fuellmann.de": "https://api.mcsrvstat.us/icon/ploemel.timo-fuellmann.de",
+      "hypixel.net": "https://api.mcsrvstat.us/icon/hypixel.net"
     },
     "dynamicVariables": {
       "default": "Example Text",
