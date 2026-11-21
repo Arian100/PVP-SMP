@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a report to help improve the Modpack
+description: Create a report to help improve the Project
 body:
 - type: markdown
   attributes:
@@ -35,9 +35,9 @@ body:
     description: If applicable, add screenshots to help explain your problem.
 - type: input
   attributes:
-    label: Modpack Version
-    description: What version of PvP & SMP are you running?
-    placeholder: "For example: 0.0.2"
+    label: Version
+    description: What version & Minecraft version are you running?
+    placeholder: "For example: 0.0.2, 1.19.4"
   validations:
     required: true
 - type: textarea
